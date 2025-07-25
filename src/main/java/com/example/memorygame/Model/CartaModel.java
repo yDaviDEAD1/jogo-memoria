@@ -59,7 +59,7 @@ public class CartaModel {
      * Este método retorna a Imagem que representa o verso da carta.
      */
     public Image getImagemVersoCarta() {
-        String nomeArquivo = "/com/example/memorygame/images/carta_de_tras.png";
+        String nomeArquivo = "/com/example/memorygame/carta_de_tras.png";
         return new Image(getClass().getResourceAsStream(nomeArquivo));
     }
 }

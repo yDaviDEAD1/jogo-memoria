@@ -58,7 +58,7 @@ public class MemoryGameController {
     public void inicializarJogo(String modoDeJogo, String nomeJ1, String nomeJ2, MenuController controladorDoMenu, Stage palco) {
         this.controladorDoMenu = controladorDoMenu;
         this.palco = palco;
-        this.imagemVersoCarta = new Image(getClass().getResourceAsStream("/com/example/memorygame/images/carta_de_tras.png"));
+        this.imagemVersoCarta = new Image(getClass().getResourceAsStream("/com/example/memorygame/carta_de_tras.png"));
 
         configurarSalvamentoAoFechar();
         inicializarVisualizadoresImagem();
@@ -85,7 +85,7 @@ public class MemoryGameController {
 
         this.controladorDoMenu = controladorDoMenu;
         this.palco = palco;
-        this.imagemVersoCarta = new Image(getClass().getResourceAsStream("/com/example/memorygame/images/carta_de_tras.png"));
+        this.imagemVersoCarta = new Image(getClass().getResourceAsStream("/com/example/memorygame/carta_de_tras.png"));
 
         configurarSalvamentoAoFechar();
         inicializarVisualizadoresImagem();
