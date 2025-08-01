@@ -49,3 +49,50 @@ Gson 2.8+ (para serialização de dados JSON)
 CSS (para estilização da UI)
 
 🚀 Como Executar o Projeto
+
+#### :white_check_mark: Pré-requisitos
+
+* JDK 11 ou superior.
+* JavaFX SDK 17 ou superior ([Download JavaFX](https://gluonhq.com/products/javafx/)).
+* IDE com suporte a Java (Eclipse, IntelliJ IDEA, VS Code com extensão Java).
+
+#### :test_tube: Passo a Passo
+
+```bash
+# 1. Clone o repositório
+git clone [https://github.com/yDaviDEAD1/jogo-memoria.git](https://github.com/yDaviDEAD1/jogo-memoria.git)
+
+# 2. Importe o projeto em sua IDE (Eclipse, IntelliJ, VS Code)
+
+# 3. Configure o JavaFX:
+ Estrutura do Projeto (Simplificada)
+├── application/
+│   ├── Main.java
+│   ├── controller/
+│   │   ├── MenuController.java
+│   │   └── MemoryGameController.java
+│   ├── model/
+│   │   ├── CartaModel.java
+│   │   ├── CartaMemoriaModel.java
+│   │   ├── DeckCartasModel.java
+│   │   ├── EstadoDoJogo.java
+│   │   └── ResultadoPartida.java
+│   ├── persistencia/
+│   │   ├── GerenciadorDeEstado.java
+│   │   └── GerenciadorDePontuacoes.java
+│   ├── view/
+│   │   ├── tela_menu.fxml
+│   │   └── tela_jogo.fxml
+├── images/
+│   ├── diagrama.png
+│   ├── menu.png
+│   └── tabuleiro.jpg
+└── pom.xml (Se estiver usando Maven)
+#    - Adicione o caminho do SDK JavaFX na configuração do projeto.
+
+📄 Licença
+Este projeto é de uso educacional e livre para modificações. Fique à vontade para usar e aprimorar!
+#    - Defina os módulos necessários: --add-modules javafx.controls,javafx.fxml
+
+# 4. Execute a classe principal:
+#    src/application/Main.java
