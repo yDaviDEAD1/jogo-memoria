@@ -1,60 +1,51 @@
-# jogo-memoria
-Jogo da Memória em JavaFX Bem-vindo ao projeto Jogo da Memória! Esta é uma aplicação de desktop clássica, desenvolvida com Java e o framework JavaFX. O jogo oferece uma interface gráfica limpa e funcionalidades modernas, como salvamento automático e histórico de pontuações.
+🧠 Jogo da Memória em JavaFX
+Bem-vindo ao projeto Jogo da Memória, uma aplicação desktop clássica desenvolvida com Java e JavaFX. O jogo proporciona uma experiência divertida com uma interface gráfica limpa e recursos modernos, como salvamento automático e histórico de pontuações.
 
-Visão Geral O projeto foi criado como uma demonstração prática das capacidades do JavaFX, implementando um jogo completo com diferentes modos, gerenciamento de estado e uma arquitetura de software bem definida (MVC).
+GitHub dos desenvolvedores: GabrielVitorSZz e yDaviDEAD1
 
-Tela de Menu (Nota: Para exibir as imagens, tire screenshots do seu aplicativo, adicione-as a uma pasta assets ou screenshots no seu repositório e substitua os links abaixo.)
+🎮 Visão Geral
+Este projeto foi criado como uma prática de aplicação dos conceitos de JavaFX, explorando arquitetura MVC, manipulação de arquivos JSON, troca de cenas com FXML, entre outros tópicos.
 
-Tela de Jogo ✨ Funcionalidades 🎮 Dois Modos de Jogo: Jogue sozinho para testar sua memória ou compita contra um amigo no modo 1 vs 1.
+O jogo oferece:
 
-💾 Salvamento Automático: Fechou o jogo sem querer? Sem problemas! A aplicação salva seu progresso automaticamente, permitindo que você continue de onde parou.
+Modos: Sozinho ou 1 vs 1.
+Salvamento automático do estado do jogo.
+Histórico de partidas com placar e nomes dos jogadores.
+Interface gráfica moderna e responsiva.
 
-📊 Histórico de Pontuações: Todas as partidas 1 vs 1 têm seus resultados salvos. O placar da última partida é exibido no menu principal.
+🖼️ Telas do Jogo
+#### Menu Principal
 
-🧑‍🤝‍🧑 Nomes de Jogadores Personalizáveis: No modo 1 vs 1, os jogadores podem inserir seus nomes para uma experiência mais personalizada.
+Permite selecionar o modo de jogo e inserir os nomes dos jogadores.
 
-✨ Interface Gráfica Intuitiva: Uma interface limpa e responsiva, criada com FXML e estilizada com CSS.
+![Tela do Menu Principal](images/menu.png)
 
-🛠️ Tecnologias Utilizadas Java 11+
+#### Tela de Jogo
 
+Apresenta um tabuleiro 4x4 de cartas viradas. Os jogadores clicam para revelar pares e acumulam pontos.
+
+![Tela do Jogo em Andamento](images/tabuleiro.jpg)
+
+#### Diagrama de Classe
+
+Exibe a arquitetura MVC do projeto, separando controladores, modelo e persistência.
+
+![Diagrama UML do Projeto](images/diagrama.png)
+
+
+✨ Funcionalidades
+🧍‍♂️ Modo Solo: Pratique sua memória sozinho.
+🧑‍🤝‍🧑 Modo 1 vs 1: Competição entre dois jogadores com pontuação.
+💾 Salvamento Automático: O estado do jogo é salvo automaticamente ao sair.
+📈 Histórico de Pontuações: Resultados de partidas 1x1 são gravados e exibidos.
+📝 Nomes Personalizáveis: Os jogadores podem inserir seus nomes.
+🎨 Interface Moderna: Construída com FXML e estilizada com CSS.
+
+🛠️ Tecnologias Utilizadas
+Java 11+
 JavaFX 17+
+FXML
+Gson 2.8+ (para serialização de dados JSON)
+CSS (para estilização da UI)
 
-Gson 2.8+ (Para manipulação de dados JSON)
-
-FXML (Para estruturação da interface gráfica)
-
-CSS (Para estilização visual)
-
-🚀 Como Executar o Projeto Para executar este projeto em sua máquina local, siga os passos abaixo.
-
-Pré-requisitos JDK (Java Development Kit) - Versão 11 ou superior.
-
-JavaFX SDK - Versão 17 ou superior. Faça o download aqui.
-
-Uma IDE de sua preferência (Eclipse, IntelliJ IDEA, VS Code com extensões Java).
-
-Passos para Configuração Clone o repositório:
-
-Bash
-
-git clone https://github.com/yDaviDEAD1/jogo-memoria.git Abra na sua IDE:
-
-Importe o projeto como um projeto Java padrão.
-
-Configure o JavaFX:
-
-Adicione o JavaFX SDK como uma biblioteca ao seu projeto.
-
-Configure as Opções de VM (VM Options): Na sua configuração de execução (Run Configuration), adicione as seguintes opções, substituindo /path/to/your/javafx-sdk/lib pelo caminho real para a pasta lib do seu JavaFX SDK:
-
---module-path /path/to/your/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml Execute:
-
-Encontre a classe principal que contém o método main (a classe que estende Application) e execute-a.
-
-📁 Estrutura do Projeto O código-fonte é organizado seguindo o padrão Model-View-Controller (MVC) para garantir a separação de responsabilidades e a manutenibilidade.
-
-src/ └── com/example/memorygame/ ├── Controller/ │ ├── MemoryGameController.java # Controla a lógica do jogo │ ├── MenuController.java # Controla o menu principal │ ├── GerenciadorDeEstado.java # Gerencia o arquivo jogo_salvo.json │ └── GerenciadorDePontuacoes.java # Gerencia o arquivo pontuacoes.json │ ├── Model/ │ ├── CartaModel.java # Modelo base de uma carta │ ├── CartaMemoriaModel.java # Carta com lógica do jogo │ ├── DeckCartasModel.java # Representa o baralho │ ├── EstadoDoJogo.java # POJO para salvar o estado │ └── ResultadoPartida.java # POJO para salvar pontuações │ └── (Outros pacotes e a classe Main) *Os arquivos .fxml, .css e imagens estão localizados dentro das pastas de recursos (resources), seguindo a estrutura de pacotes.
-
-🧑‍💻 Autor Davi e Gabriel
-
-GitHub: @yDaviDEAD1, @GabrielVitorSZz
+🚀 Como Executar o Projeto
