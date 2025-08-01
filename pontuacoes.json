@@ -75,5 +75,40 @@
     "nomeJogador2": "asdasdas",
     "pontosJogador2": 2,
     "dataHora": "21/07/2025 11:32:10"
+  },
+  {
+    "nomeJogador1": "Davi",
+    "pontosJogador1": 4,
+    "nomeJogador2": "Gabriel",
+    "pontosJogador2": 4,
+    "dataHora": "25/07/2025 19:19:09"
+  },
+  {
+    "nomeJogador1": "Gabriel",
+    "pontosJogador1": 3,
+    "nomeJogador2": "Davi",
+    "pontosJogador2": 5,
+    "dataHora": "25/07/2025 19:20:38"
+  },
+  {
+    "nomeJogador1": "Davi",
+    "pontosJogador1": 3,
+    "nomeJogador2": "Petista",
+    "pontosJogador2": 5,
+    "dataHora": "25/07/2025 19:22:00"
+  },
+  {
+    "nomeJogador1": "Petista",
+    "pontosJogador1": 4,
+    "nomeJogador2": "Davi",
+    "pontosJogador2": 4,
+    "dataHora": "25/07/2025 19:23:43"
+  },
+  {
+    "nomeJogador1": "ghXHGshjdagshdjg",
+    "pontosJogador1": 2,
+    "nomeJogador2": "kkkkk",
+    "pontosJogador2": 6,
+    "dataHora": "25/07/2025 19:24:47"
   }
 ]
